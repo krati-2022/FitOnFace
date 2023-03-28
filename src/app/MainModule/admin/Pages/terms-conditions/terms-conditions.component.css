@@ -56,3 +56,13 @@
   color: #777;
   margin-right: 1rem;
 }
+
+.terms-header {
+  font-size: 16px;
+  font-weight: 600;
+  color: #03314B;
+}
+.terms-line {
+  font-size: 12px;
+  font-weight: 500;
+}
