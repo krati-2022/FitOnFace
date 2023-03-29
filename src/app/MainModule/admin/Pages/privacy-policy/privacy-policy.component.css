@@ -1,21 +1,18 @@
 h1 {
-  font-size: 46px;
-  text-align: center;
-  color: #717ff5;
-  margin: 0;
-  padding: 0 0 6px 0;
-  border-bottom: 1px solid rgba(0,0,0,.15);
-  text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    color: #03314B;
 }
 h2 {
-  font-size: 20px;
-  line-height: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  line-height: 10px;
+  font-weight: 500;
   text-align: left;
-  color: #F61C7A;
+  color: #03314B;
   margin: 0;
   padding: 20px 0 0 0;
-  text-decoration: underline;
+ 
 }
 p {
   font-size: 13px;

@@ -33,6 +33,8 @@ import { TermsConditionsComponent } from './Pages/terms-conditions/terms-conditi
 import { FaqComponent } from './Pages/faq/faq.component';
 import { ProfilePageComponent } from './Pages/profile-page/profile-page.component';
 import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.component';
+import { LegalDisclamerComponent } from './Pages/legal-disclamer/legal-disclamer.component';
+import { TermsServicesComponent } from './Pages/terms-services/terms-services.component';
 
 
 @NgModule({
@@ -66,7 +68,9 @@ import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.co
     TermsConditionsComponent,
     FaqComponent,
     ProfilePageComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    LegalDisclamerComponent,
+    TermsServicesComponent
   ],
   imports: [
     CommonModule,
