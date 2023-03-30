@@ -35,6 +35,7 @@ import { ProfilePageComponent } from './Pages/profile-page/profile-page.componen
 import { PrivacyPolicyComponent } from './Pages/privacy-policy/privacy-policy.component';
 import { LegalDisclamerComponent } from './Pages/legal-disclamer/legal-disclamer.component';
 import { TermsServicesComponent } from './Pages/terms-services/terms-services.component';
+import { CommenSelectionComponent } from 'src/app/SharedComponent/shared-component/commen-selection/commen-selection.component';
 
 
 @NgModule({
@@ -70,14 +71,15 @@ import { TermsServicesComponent } from './Pages/terms-services/terms-services.co
     ProfilePageComponent,
     PrivacyPolicyComponent,
     LegalDisclamerComponent,
-    TermsServicesComponent
+    TermsServicesComponent,
+  CommenSelectionComponent
   ],
   imports: [
     CommonModule,
     AdminRoutingModule,
     ReactiveFormsModule,
     FormsModule
-    
+
   ]
 })
 export class AdminModule { }

@@ -19,3 +19,13 @@ body {
   display: flex;
   margin-left: 4px;
 }
+
+.faq-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #03314B;
+}
+.faq-line {
+    font-size: 14px;
+    font-weight: 400;
+}

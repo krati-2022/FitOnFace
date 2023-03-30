@@ -8,7 +8,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
+
   color: #444444;
 }
 
@@ -1239,10 +1239,15 @@ h6 {
   font-size: 14px;
   transition: all 0.3s;
   border-top: 1px solid #cddfff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .footer .copyright {
-  text-align: center;
+
   color: #012970;
 }
 
